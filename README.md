@@ -1,6 +1,8 @@
 # SimpleLameLibForAndroid
 [LAME](http://lame.sourceforge.net/) MP3 encoder simple interface library for Android.
 
+This is a fork of the original [SimpleLameLibForAndroid](https://github.com/yhirano/SimpleLameLibForAndroid) project built with a slightly newer Android NDK r10e to get an arm64-v8a binary. Published under the same zlib License (see below).
+
 ## License
 ### LAME
 
