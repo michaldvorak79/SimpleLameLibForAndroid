@@ -1,5 +1,5 @@
 #include <jni.h>
-#include "lame.h"
+#include "lame-3.99.5_libmp3lame/lame.h"
 
 #ifndef __SIMPLE_LAME_LIB_H__
 #define __SIMPLE_LAME_LIB_H__
