@@ -17,6 +17,11 @@
  *    misrepresented as being the original software.
  * 3. This notice may not be removed or altered from any source distribution.
  */
+ 
+/*
+ * This version is modified slightly from the original: the static loadLibrary() call was moved here from the original Lame.java source file, which was discarded.
+ */
+
 
 package com.uraroji.garage.android.lame;
 
@@ -26,6 +31,10 @@ package com.uraroji.garage.android.lame;
  * This class is object-oriented interface.
  */
 public class Encoder {
+    
+    static {
+        System.loadLibrary("mp3lame");
+    }
 
     /**
      * Lame builder class.
